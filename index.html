@@ -13971,12 +13971,6 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><a href="https://colab.research.google.com/github/spenser-goff/CMSC320_Final/blob/main/Final_Project_Sea_Level.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Predicting-Local-Changes-in-Sea-Level"><strong>Predicting Local Changes in Sea Level</strong><a class="anchor-link" href="#Predicting-Local-Changes-in-Sea-Level">&#182;</a></h1><p>Sai Gopinath, Spenser Goff</p>
 
 </div>
@@ -29787,7 +29781,7 @@ mean squared error for alpha =  1 :  0.18487939724532182
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>From the graph, we find that R^2 peaks when alpha = .525. We can re-train the model to use .525 to get our most accurate prediction.</p>
+<p><strong>From</strong> the graph, we find that R^2 peaks when alpha = .525. We can re-train the model to use .525 to get our most accurate prediction.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -29844,15 +29838,24 @@ mean squared error:  0.18337756474261022
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>summarize ML results:</p>
-<ul>
-<li>Using ridge regression, we were able to predict changes in sea level by station with a high accuracy of 94.04%</li>
-</ul>
-<p>what this means:</p>
-<ul>
-<li>rephrase this : "Predicting changes in sea level on the regional level is important because rise in sea level is a safety concern to those living close to the coast, can harm both land and sea ecosystems, and can destroy infrastructure"</li>
-</ul>
-<p>future project ideas??</p>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>In summary, our linear regression and ridge regression show that high
+degree of the change in sealevel can be attributed to our factors of 
+interest (CDD, Rx5, T10, T90, WP90), as well as the date and place. 
+The ridge regression performed better than the linear regression when
+comparing R-sq values an MSE, but both methods performed very well 
+overall. Using many different types of tests / regressions can provide
+a better indication of how powerful your model is.</p>
+<p>There is significant practical use for identifying correlative factors of
+sealevel, especially given your time and place, as predictive models can 
+reduce the ecological and economic harm of rising sealevels. For instance,
+by identifying areas most effected by rising sealevels, we can help those
+places with disaster prepartion. Additionally, in non-human inhabited places,
+we can take efforts to preserve and protect wild and plant life.</p>
+<p>Now that we know which factors affect sealevel, we can further investigate
+as to why those factors are increasing to begin with. For instance, the 
+connection between climate change and rising sealevel has been understood 
+for decades, and so knowing how human activity affects Rx5, T90, etc. could
+help inform policy decisions to fight the effects of climate change.</p>
 
 </div>
 </div>
